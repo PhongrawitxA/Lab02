@@ -5,7 +5,12 @@ h1{color: blue;}
 /*Make all <li> elements in the shade of hexadecimal blue*/
 li{color: #2EA0A8;}
 /*Paragraph background to orange*/
-p{background-color: orange;}
+p{
+    background-color: orange;
+    padding: 2px solid black;
+    border: 2px solid blue ;
+    margin: 10px;
+}
 /*Make all <h3> have 5px red solid border*/
 h3{border-style: solid; border-width: 5px; border-color: red;}
 /*Give everything with <abbr> bold and underlined*/
